@@ -2,7 +2,8 @@
 [![Build Status](https://app.travis-ci.com/AntonioDaria/simple_node.svg?branch=master)](https://app.travis-ci.com/AntonioDaria/simple_node)
 ## Overview
 This is a very simple, bare-bones NodeJS.
-The purpose of this project is to demonstrate the use of Containers with Docker as well as setting up CI piplines with Travis CI
+The purpose of this project is to demonstrate the use of Containers with Docker as well as setting up CI piplines with Travis CI.
+
 Note that in the .travis.yml file Environment variables containing sensitive informations are used to interact with Dockerhub(see example below)
 * push to docker: `push "$DOCKER_HUB_USER_NAME"/container_demo`
 
